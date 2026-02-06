@@ -127,7 +127,7 @@ const index = () => {
   useEffect(()=>{
     const fetchdata=async()=>{
       try {
-        const res=await axios.get( "https://internshala-clone-lwcf.onrender.com/api/job")     
+        const res=await axios.get( "https://internshala-clone-git-main-komaladevis-projects.vercel.app//api/job")     
         setjob(res.data)
         setfilteredjobs(res.data)
       } catch (error) {
