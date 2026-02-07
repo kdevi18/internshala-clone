@@ -163,7 +163,7 @@ const index = () => {
         availability,
       };
       await axios.post(
-        "https://localhost:5000/api/application",
+        "https://internshala-clone-git-main-komaladevis-projects.vercel.app/api/application",
         applicationdata
       );
       toast.success("Application submit successfully");

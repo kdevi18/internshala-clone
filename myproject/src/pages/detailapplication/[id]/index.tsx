@@ -13,7 +13,7 @@ const index = () => {
       try {
         setloading(true);
         const res = await axios.get(
-          `https://localhost:5000/api/application/${id}`
+          `https://internshala-clone-git-main-komaladevis-projects.vercel.app/api/application/${id}`
         );
         console.log(res.data);
         setdata(res.data);
