@@ -27,7 +27,7 @@ const index = () => {
     try {
       setisloading(true);
       const res = await axios.post(
-        "https://internshala-clone-git-main-komaladevis-projects.vercel.app/api/admin/adminlogin",
+        "https://internshala-clone-lwcf.onrender.com/api/admin/adminlogin",
         formadata
       );
       toast.success("logged in successfuly");
