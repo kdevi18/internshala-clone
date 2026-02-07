@@ -11,12 +11,12 @@ app.use(bodyparser.json({ limit: "50mb" }));
 app.use(bodyparser.urlencoded({ extended: true, limit: "50mb" }));
 app.use(express.json());
 
-const corsOptions = {
-  origin: 'https://internshala-clone-phi.vercel.app', // Only allow this specific origin
-  optionsSuccessStatus: 200
-};
+// const corsOptions = {
+//   origin: 'https://internshala-clone-phi.vercel.app', // Only allow this specific origin
+//   optionsSuccessStatus: 200
+// };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 app.get("/", (req, res) => {
   res.send("hello this is internshala backend");
